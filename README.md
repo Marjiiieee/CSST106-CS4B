@@ -59,6 +59,8 @@ Overall, object detection models consist of localisation and identification task
 
 ![Screenshot 2024-09-06 203212](https://github.com/user-attachments/assets/e38f8220-cf7d-476f-9711-c3809b671463)
 
+**Edge detection** identifies boundaries within an image by highlighting areas of strong gradients. The Canny algorithm is one of the most commonly used edge detectors. Used in object detection systems, like identifying shapes in robotics and is useful in medical imaging for identifying edges of tissues or organs. Its crucial in feature extraction for tasks like shape recognition and object tracking.
+
 ```python
 import cv2
 import numpy as np
@@ -78,7 +80,8 @@ plt.subplot(122), plt.imshow(edges, cmap='gray')
 plt.title('Edge Image')
 plt.show()
 ```
-**Edge detection** identifies boundaries within an image by highlighting areas of strong gradients. The Canny algorithm is one of the most commonly used edge detectors. Used in object detection systems, like identifying shapes in robotics and is useful in medical imaging for identifying edges of tissues or organs. Its crucial in feature extraction for tasks like shape recognition and object tracking.
+
+**Thresholding** is a simple method of image segmentation that converts an image into a binary form, where pixel values are set to either 0 or 1 based on a threshold value. It is often used in medical imaging to isolate different parts of an image, like distinguishing between background and foreground regions (e.g., tumor detection) and frequently applied in OCR (Optical Character Recognition) systems to process text documents. It aids in classifying regions of interest (e.g., background vs. foreground).
 
 ```python
 import cv2
@@ -98,7 +101,7 @@ plt.subplot(122), plt.imshow(thresholded, cmap='gray')
 plt.title('Thresholded Image')
 plt.show()
 ```
-**Thresholding** is a simple method of image segmentation that converts an image into a binary form, where pixel values are set to either 0 or 1 based on a threshold value. It is often used in medical imaging to isolate different parts of an image, like distinguishing between background and foreground regions (e.g., tumor detection) and frequently applied in OCR (Optical Character Recognition) systems to process text documents. It aids in classifying regions of interest (e.g., background vs. foreground).
+**Blurring** an image smoothens out sharp transitions in intensity. The Gaussian blur technique is widely used to reduce noise or prepare an image for further processing, such as edge detection. Preprocessing step in face recognition systems to reduce noise, this also helps detect large-scale features by smoothing out finer details. It reduces noise, making it easier for AI systems to detect meaningful patterns in an image.
 
 ```python
 import cv2
@@ -118,4 +121,6 @@ plt.subplot(122), plt.imshow(cv2.cvtColor(blurred, cv2.COLOR_BGR2RGB))
 plt.title('Blurred Image')
 plt.show()
 ```
-**Blurring** an image smoothens out sharp transitions in intensity. The Gaussian blur technique is widely used to reduce noise or prepare an image for further processing, such as edge detection. Preprocessing step in face recognition systems to reduce noise, this also helps detect large-scale features by smoothing out finer details. It reduces noise, making it easier for AI systems to detect meaningful patterns in an image.
+### **LINKS USED**
+[AI in Image Processing]([URL](https://llmmodels.org/blog/ai-in-image-processing-enhancing-and-creating-visual-content/))
+
