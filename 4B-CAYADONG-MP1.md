@@ -123,4 +123,13 @@ plt.show()
 ```
 ### **LINKS USED**
 [AI in Image Processing](https://llmmodels.org/blog/ai-in-image-processing-enhancing-and-creating-visual-content/)
+[The Power of AI in Image Processing: A Comprehensive Guide](https://vegavid.com/blog/power-of-ai-in-image-processing/)
+[A Survey: Image Segmentation Techniques](https://link.springer.com/chapter/10.1007/978-981-13-0761-4_105)
+[Guide to Image Segmentation in Computer Vision: Best Practices](https://encord.com/blog/image-segmentation-for-computer-vision-best-practice-guide/)
+[Understanding Image Filtering Techniques in Image Processing](https://www.imageprovision.com/articles/understanding-image-filtering-techniques-in-image-processing)
+[Case Study - Computer vision and machine learning for medical image analysis: recent advances, challenges, and way forward](https://www.oaepublish.com/articles/ais.2021.15)
+[Image Enhancement JPG](https://www.oaepublish.com/articles/ais.2021.15)
+[Image Filtering JPG](https://scikit-image.org/skimage-tutorials/lectures/1_image_filters.html)
+[Edge Detection JPG](https://blog.roboflow.com/edge-detection/)
+[Image Segmentation JPG](https://deeplobe.ai/image-segmentation-the-most-interesting-applications/)
 
