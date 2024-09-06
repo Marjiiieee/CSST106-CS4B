@@ -122,5 +122,5 @@ plt.title('Blurred Image')
 plt.show()
 ```
 ### **LINKS USED**
-[AI in Image Processing]([URL](https://llmmodels.org/blog/ai-in-image-processing-enhancing-and-creating-visual-content/))
+[AI in Image Processing](https://llmmodels.org/blog/ai-in-image-processing-enhancing-and-creating-visual-content/)
 
