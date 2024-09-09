@@ -1,0 +1,9 @@
+# **Exercise 1: Image Processing Techniques**
+
+## **1. Install OpenCV**
+
+```python
+!pip install opencv-python-headless
+```
+
+OpenCV is a powerful, open-source library designed specifically for image processing, offering tools like filtering, edge detection, and feature extraction. It is optimized for performance and works across various platforms, making it suitable for real-time applications. Its integration with other libraries and strong community support make it a go-to choice for both simple and advanced image processing tasks.
