@@ -1,5 +1,7 @@
 # **Exercise 1: Image Processing Techniques**
 
+![Intro](https://github.com/user-attachments/assets/4b7600a6-1353-4474-8dde-16f609b43639)
+
 ## **1. Install OpenCV**
 
 ```python
@@ -116,3 +118,8 @@ display_image(edges, "Canny Edge Detection")
 ### **Result**
 
 ![Marj 7](https://github.com/user-attachments/assets/5635e5c8-f226-4293-8648-5cc0fe141e13)
+
+
+***Link to the Google Colab Project:***
+
+* [EXERCISE1-ImageProcessingTechniques-CAYADONG-4B.ipynb](https://colab.research.google.com/drive/1vtBP1-7w41lG-nQ_BfSeE3_9AzaW8G5V?usp=sharing)
