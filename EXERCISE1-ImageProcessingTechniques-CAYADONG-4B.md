@@ -1,0 +1,118 @@
+# **Exercise 1: Image Processing Techniques**
+
+## **1. Install OpenCV**
+
+```python
+!pip install opencv-python-headless
+```
+
+OpenCV is a powerful, open-source library designed specifically for image processing, offering tools like filtering, edge detection, and feature extraction. It is optimized for performance and works across various platforms, making it suitable for real-time applications. Its integration with other libraries and strong community support make it a go-to choice for both simple and advanced image processing tasks.
+
+## **2. Import Libraries**
+
+```python
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+def display_image(img,title="Image"):
+  plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
+  plt.title(title)
+  plt.axis('off')
+  plt.show()
+
+def display_images(img1,img2, title1="Image 1",title2="Image 2"):
+  plt.subplot(1,2,1)
+  plt.imshow(cv2.cvtColor(img1,cv2.COLOR_BGR2RGB))
+  plt.title(title1)
+  plt.axis('off')
+
+  plt.subplot(1,2,1)
+  plt.imshow(cv2.cvtColor(img2,cv2.COLOR_BGR2RGB))
+  plt.title(title2)
+  plt.axis('off')
+
+  plt.show()
+```
+
+Importing libraries allows you to reuse pre-written code, saving time and effort when performing common tasks. Libraries provide specialized functions and tools that enhance the capabilities of your program, such as data manipulation, machine learning, or image processing. 
+
+## **3.Load Image**
+
+```python
+from google.colab import files
+from io import BytesIO
+from PIL import Image
+
+uploaded = files.upload()
+
+image_path = next(iter(uploaded))
+image = Image.open(BytesIO(uploaded[image_path]))
+image = cv2.cvtColor(np.array(image),cv2.COLOR_BGR2RGB)
+
+display_image(image, "Original Image")
+```
+
+### **Result**
+
+![Marj 1](https://github.com/user-attachments/assets/7a897b30-0f5a-465c-a413-539b6b8e8f4e)
+
+## **Exercise 1:Scaling and Rotation**
+
+```python
+def scale_image(image, scale_factor):
+  height, width = image.shape[:2]
+  scale_image = cv2.resize(image, (int(width * scale_factor), (int(height * scale_factor))), interpolation=cv2.INTER_LINEAR)
+  return scale_image
+
+def rotated_image(image, angle):
+  height, width = image.shape[:2]
+  center = (width // 2, height // 2)
+  matrix = cv2.getRotationMatrix2D(center, angle, 1.0)
+  rotated_image = cv2.warpAffine(image, matrix, (width, height))
+  return rotated_image
+
+scaled_image = scale_image(image, 0.5)
+display_image(scaled_image, "Scaled Image (50%)")
+
+rotated_image = rotated_image(image, 45)
+display_image(rotated_image, "Rotated Image (45)")
+```
+
+### **Results**
+
+![Marj 2](https://github.com/user-attachments/assets/1988103c-40fc-4f16-9e81-e3d6a988af41)
+
+![Marj 3](https://github.com/user-attachments/assets/6e994349-54c5-4c57-b979-0fe974aa6b08)
+
+## **Exercise 2: Blurring Techniques**
+
+```python
+gaussian_blur = cv2.GaussianBlur(image, (5,5), 20)
+display_image(gaussian_blur, "Gaussian Blur")
+
+median_blur = cv2.medianBlur(image, 15)
+display_image(median_blur, "Median Blur")
+
+bilateral_filter = cv2.bilateralFilter(image, 9, 75, 75)
+display_image(bilateral_filter, "Belateral Filter")
+```
+
+### **Results**
+
+![Marj 4](https://github.com/user-attachments/assets/df53d0e6-aaef-4093-a4d2-6128d342fe18)
+
+![Marj 5](https://github.com/user-attachments/assets/dd59b7b8-0c63-4461-b054-520845971fea)
+
+![Marj 6](https://github.com/user-attachments/assets/c7170353-cc6e-4d43-a1ea-81db524c14f7)
+
+## **Exercise 3: Edge Detection using Canny**
+
+```python
+edges = cv2.Canny(image, 180, 180)
+display_image(edges, "Canny Edge Detection")
+```
+
+### **Result**
+
+![Marj 7](https://github.com/user-attachments/assets/5635e5c8-f226-4293-8648-5cc0fe141e13)
