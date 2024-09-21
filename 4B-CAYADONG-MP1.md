@@ -1,4 +1,4 @@
-# **CSST106-CS4B**
+# **Machine Problem 1 - Exploring the Role of Computer Vision and Image-Processing**
 
 https://github.com/user-attachments/assets/8c681fc4-1e06-41cc-86c3-af77c46f9d9d
 
