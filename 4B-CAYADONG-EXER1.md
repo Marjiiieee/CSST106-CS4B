@@ -1,6 +1,6 @@
 # **Exer1 - Image Processing Techniques**
 
-![Intro](https://github.com/user-attachments/assets/4b7600a6-1353-4474-8dde-16f609b43639)
+![EXER 1](https://github.com/user-attachments/assets/bb3c5404-9eb9-4bbc-89d7-f144cb80eff2)
 
 **Comparison**
 
