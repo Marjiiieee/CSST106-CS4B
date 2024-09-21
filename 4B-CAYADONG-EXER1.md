@@ -1,6 +1,10 @@
-# **Exercise 1: Image Processing Techniques**
+# **Exer1 - Image Processing Techniques**
 
 ![Intro](https://github.com/user-attachments/assets/4b7600a6-1353-4474-8dde-16f609b43639)
+
+**Comparison**
+
+[4B-CAYADONG-EXER1.pdf](https://github.com/user-attachments/files/17083482/4B-CAYADONG-EXER1.pdf)
 
 ## **1. Install OpenCV**
 
