@@ -1,5 +1,7 @@
 # **Machine Problem 1 - Exploring the Role of Computer Vision and Image-Processing**
 
+![MP 1](https://github.com/user-attachments/assets/a0749185-504d-4ff8-b385-3bf2203d2651)
+
 https://github.com/user-attachments/assets/8c681fc4-1e06-41cc-86c3-af77c46f9d9d
 
 ## **Computer Vision**
