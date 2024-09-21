@@ -2,9 +2,6 @@
 
 ![Intro](https://github.com/user-attachments/assets/4b7600a6-1353-4474-8dde-16f609b43639)
 
-**Comparison**
-* [4B-CAYADONG-EXER1.pdf](https://github.com/user-attachments/files/17062910/4B-CAYADONG-EXER1.pdf)
-
 ## **1. Install OpenCV**
 
 ```python
@@ -457,8 +454,4 @@ plt.show()
 ***Link to the Google Colab Project:***
 
 * [EXERCISE1-ImageProcessingTechniques-CAYADONG-4B.ipynb](https://colab.research.google.com/drive/1vtBP1-7w41lG-nQ_BfSeE3_9AzaW8G5V?usp=sharing)
-
-*Comparison**
-
-* [4B-CAYADONG-EXER1.pdf](https://github.com/user-attachments/files/17062910/4B-CAYADONG-EXER1.pdf)
 
