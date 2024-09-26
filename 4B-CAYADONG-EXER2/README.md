@@ -50,4 +50,4 @@ Influence on AI Applications The significance of feature extraction methods exte
 
 * https://www.larksuite.com/en_us/topics/ai-glossary/some-common-methods-for-feature-extraction-in-ai
 
-* 
+* https://shehan-a-perera.medium.com/a-comparison-of-sift-surf-and-orb-333d64bcaaea#:~:text=So%20we%20can%20notice%20that,ORB%20execute%20fast%20than%20others.
