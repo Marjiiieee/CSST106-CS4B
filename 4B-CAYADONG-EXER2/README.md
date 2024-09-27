@@ -6,11 +6,11 @@
 
 Feature extraction is a process in machine learning and data analysis that involves identifying and extracting relevant features from raw data. These features are later used to create a more informative dataset, which can be further utilized for various tasks such as:
 
-* Classification
+#### * Classification
 
-* Prediction
+#### * Prediction
 
-* Clustering
+#### * Clustering
 
 Feature extraction aims to reduce data complexity (often known as “data dimensionality”) while retaining as much relevant information as possible. This helps to improve the performance and efficiency of machine learning algorithms and simplify the analysis process. Feature extraction may involve the creation of new features (“feature engineering”) and data manipulation.
 
