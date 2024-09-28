@@ -6,7 +6,7 @@
 
 **Object detection**, on the other hand, is a specific task that involves locating and identifying objects within an image or video. It not only tells you what objects are present (like people, cars, or animals) but also provides their locations, usually in the form of bounding boxes around them. Together, feature extraction and object detection enable machines to analyze and interpret visual information similar to how humans do.
 
-Examples of feature extraction and object detection:
+Examples of feature extraction and object detection
 
 ### Feature Extraction Examples:
 1. **Edge Detection**: Identifying the edges in an image, like the outlines of a building or the shape of an object. This can be done using methods like the Canny edge detector.
