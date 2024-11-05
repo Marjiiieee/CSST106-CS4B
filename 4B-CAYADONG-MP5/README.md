@@ -2,6 +2,10 @@
 
 ![MP 5](https://github.com/user-attachments/assets/0f5e0b22-e71f-42d4-bdc8-fbbcab7e2f7c)
 
+***Link to the Google Colab Project:***
+
+[4B-CAYADONG-MP5.ipynb](https://colab.research.google.com/drive/1YVEmaccIk3yaxstFr7ggzwboFPNOKKX5?usp=sharing)
+
 **What is Object Detection and Recognition using Yolo?**
 
 Computer vision is a rapidly advancing field that aims to enable computers to interpret and understand visual information in the same way that humans do. One of the most important subfields of computer vision is object detection, which involves detecting instances of semantic objects of a certain pre-defined class(es), such as humans, cars, and animals, in images or frames of videos.
