@@ -18,7 +18,7 @@
 
 ## **TABLE OF CONTENTS:**
 
-## **Midterm**
+### **Midterm**
 
 - [Midterm Project (Exam)](https://github.com/Marjiiieee/CSST106-CS4B/tree/main/Midterm-Project)
 
