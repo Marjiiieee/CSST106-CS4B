@@ -18,6 +18,10 @@
 
 ## **TABLE OF CONTENTS:**
 
+## **Midterm**
+
+- [Midterm Project (Exam)](https://github.com/Marjiiieee/CSST106-CS4B/tree/main/Midterm-Project)
+
 ### **Exercises**
 
 - [Exercise 1 - Image Processing Techniques](https://github.com/Marjiiieee/CSST106-CS4B/blob/main/4B-CAYADONG-EXER1.md)
